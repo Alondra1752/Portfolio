@@ -3,12 +3,18 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     scroll-behavior: smooth;
+    padding-top: 60px; /* Offset for fixed header */
 }
 
 header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -37,7 +43,12 @@ section {
     text-align: center;
 }
 
-section h1, section h2 {
+/* Avatar */
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     margin-bottom: 1rem;
 }
 
@@ -98,7 +109,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }

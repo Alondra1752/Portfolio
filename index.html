@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
 </head>
 <body>
     <header>
@@ -17,12 +17,15 @@
             </ul>
         </nav>
     </header>
-
+<!--About me photo-->
     <section id="about">
         <h1>About Me</h1>
-        <p>I'm a full stack developer with a passion for building functional and user-friendly websites. I thrive on bringing creative ideas to life, using my skills to craft visually appealing and intuitive web applications. My work is driven by a love for both the technical and creative aspects of development, allowing me to blend functionality with design in every project I undertake</p>
+        <div class="avatar-container">
+            <img src="images/avatar.jpg" alt="My Avatar" class="avatar">
+        </div>
+        <p>I'm a full stack developer with a passion for building functional and user-friendly websites. I thrive on bringing creative ideas to life, using my skills to craft visually appealing and intuitive web applications. My work is driven by a love for both the technical and creative aspects of development, allowing me to blend functionality with design in every project I undertake.</p>
     </section>
-
+<!--Links for projects -->
     <section id="work">
         <h2>My Work</h2>
         <div class="work-gallery">
@@ -41,14 +44,21 @@
             <!-- Add more applications as needed -->
         </div>
     </section>
-
+<!--Contact information -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>You can reach me via email at <a href="mailto:example@example.com">example@example.com</a>.</p>
+        <p>You can reach me via:</p>
+        <ul class="contact-info">
+            <li><a href="alondra@email.com">Email</a></li>
+            <li><a href="tel:+1234567890">Phone</a></li>
+            <li><a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/Alondra1752/Portfolio.git" target="_blank">GitHub</a></li>
+        </ul>
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Alondra. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
