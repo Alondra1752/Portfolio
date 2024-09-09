@@ -32,7 +32,7 @@ To run this project locally, follow these steps:
 
 Repository Link: https://github.com/Alondra1752/Portfolio
 
-Deployment Link: 
+Deployment Link: https://alondra1752.github.io/Portfolio/
 
 ## Resources
 
