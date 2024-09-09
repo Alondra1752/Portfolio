@@ -14,6 +14,12 @@ Some of the features of this project:
 - **About Section**: Includes a photo or avatar, a description about me, and links to my email, phone number, LinkedIn profile, and GitHub profile.
 - **Contact Section**: Provides additional ways to reach out to me.
 
+![About me section](./assets/images/screenshot1.jpg)
+
+![About me section](./assets/images/screenshot2.jpg)
+
+![About me section](./assets/images/screenshot3.jpg)
+
 ## Installation
 
 To run this project locally, follow these steps:
@@ -24,7 +30,7 @@ To run this project locally, follow these steps:
 
 ## Links
 
-Repository Link: 
+Repository Link: https://github.com/Alondra1752/Portfolio
 
 Deployment Link: 
 
@@ -38,5 +44,5 @@ This project is licensed under MIT License. For more information please click on
 
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
- 
+
 
