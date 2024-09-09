@@ -5,7 +5,7 @@ body {
     scroll-behavior: smooth;
     padding-top: 60px; /* Offset for fixed header */
 }
-
+/* header section*/
 header {
     background: #d2a6e4;
     color: #fff;
