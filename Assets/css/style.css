@@ -1,0 +1,104 @@
+/* Body and basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+section h1, section h2 {
+    margin-bottom: 1rem;
+}
+
+/* Work gallery styles */
+.work-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.work-gallery a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.work-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.work-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.work-gallery .featured {
+    flex: 1 1 60%;
+    max-width: 80%;
+}
+
+.work-gallery img:not(.featured) {
+    flex: 1 1 30%;
+}
+
+.caption {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .work-gallery .featured {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .work-gallery img:not(.featured) {
+        flex: 1 1 100%;
+    }
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
