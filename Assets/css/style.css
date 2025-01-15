@@ -103,6 +103,12 @@ section {
     }
 }
 
+/* This removes the bulletin where they would normally appear in the let's conenct box*/
+
+ul.contact-info {
+    list-style-type: none;
+}
+
 /* Footer */
 footer {
     background: #d2a6e4;
